@@ -1,5 +1,6 @@
-# react-wait
-Show placeholder when waiting, show content when done.
+# react-wait2
+
+Show placeholder when waiting, show your content when done, show error when failed.
 
 ## Motivation
 

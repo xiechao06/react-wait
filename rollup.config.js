@@ -35,7 +35,7 @@ export default [
   {
     input: pkg.source,
     output: {
-      file: 'dist/react-wait.browser.js',
+      file: 'dist/react-wait2.browser.js',
       format: 'iife',
       name: 'reactWait',
       globals: {
@@ -53,7 +53,7 @@ export default [
   {
     input: pkg.source,
     output: {
-      file: 'dist/react-wait.browser.min.js',
+      file: 'dist/react-wait2.browser.min.js',
       format: 'iife',
       name: 'reactWait',
       globals: {

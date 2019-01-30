@@ -1,5 +1,5 @@
 {
-  "name": "react-wait",
+  "name": "react-wait2",
   "version": "0.0.1",
   "description": "Show placeholder when waiting, show content when done",
   "main": "dist/index.js",
