@@ -1,0 +1,57 @@
+{
+  "name": "react-wait",
+  "version": "0.0.1",
+  "description": "Show placeholder when waiting, show content when done",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "source": "index.js",
+  "scripts": {
+    "test": "standard *.js && tape -r @babel/register test.js | tap-spec",
+    "dev": "npm run test; chokidar *.js -c \"tape -r @babel/register test.js | tap-spec\"",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiechao06/react-wait.git"
+  },
+  "keywords": [
+    "react",
+    "placeholder"
+  ],
+  "author": "xiechao06@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiechao06/react-wait/issues"
+  },
+  "homepage": "https://github.com/xiechao06/react-wait#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "@babel/runtime": "^7.3.1",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.23",
+    "chokidar-cli": "^1.2.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "jsdom": "^13.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-uglify": "^6.0.2",
+    "sleep-promise": "^8.0.1",
+    "standard": "^12.0.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.2"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
