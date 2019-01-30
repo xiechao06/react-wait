@@ -8,7 +8,7 @@ why bother making a similar one? the reasons are:
 * decouple the content loader, I suggest using [react-content-loader](https://www.npmjs.com/package/react-content-loader)
   as the content loader
 * make content loader more customizable, using the technique [render props](https://reactjs.org/docs/render-props.html)
-* make loading data the responsibility of children element
+* make loading data the responsibility of children element, let the tasks like show spinner or error warning be the responsibility of *react-wait*
 
 ## Installation
 
